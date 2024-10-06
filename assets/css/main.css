@@ -16,6 +16,7 @@
   --linkText: #09c0f7;
   --darkLinkText: #065F7A;
   --linkHover: #fa866a;
+  --titleBackground: rgba(4, 106, 169, 0.5);
 }
 
 html,
@@ -2700,7 +2701,7 @@ button.small,
   -webkit-animation-fill-mode: forwards;
   -ms-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  background: rgba(4, 106, 169, 0.5);
+  background: var(--titleBackground);
   color: #fff;
   display: inline-block;
   opacity: 0;
@@ -3434,7 +3435,6 @@ body.index #main {
   }
 
   #banner .inner {
-    background: none;
     display: block;
     padding: 0 1.5em;
   }
