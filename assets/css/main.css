@@ -7,6 +7,18 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+:root {
+  --lightestFontColor: #fff;
+  --lightFontColor: #f5f5f5;
+  --darkFontColor: #595959;
+  --darkestFontColor: #333;
+  --background: #041f37;
+  --linkText: #09c0f7;
+  --darkLinkText: #065F7A;
+  --linkHover: #fa866a;
+  --titleBackground: rgba(4, 106, 169, 0.5);
+}
+
 html,
 body,
 div,
@@ -173,7 +185,7 @@ html {
 }
 
 body {
-  background: #041f37;
+  background: var(--background);
 }
 
 body.is-preload *,
@@ -193,7 +205,7 @@ body,
 input,
 select,
 textarea {
-  color: #848485;
+  color: var(--lightFontColor);
   font-family: "Lato", sans-serif;
   font-size: 15pt;
   font-weight: 300;
@@ -210,14 +222,22 @@ a {
     background-color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out,
     background-color 0.2s ease-in-out;
-  color: #09c0f7;
+  color: var(--linkText);
   text-decoration: none;
   border-bottom: dotted 1px;
+}
+header a {
+  border-bottom: none;
+}
+
+header a i {
+  font-size: 5em;
+  line-height: 2em;
 }
 
 a:hover {
   border-bottom-color: transparent;
-  color: #fa866a;
+  color: var(--linkHover);
 }
 
 a.button:hover {
@@ -2375,8 +2395,15 @@ button.small,
 
 .wrapper.style4 {
   background: #fff;
-  color: inherit;
+  color: var(--darkFontColor);
   padding: 4em;
+}
+
+.wrapper.style4 a {
+  color: var(--darkLinkText);
+}
+.wrapper.style4 a:hover {
+  color: var(--linkHover);
 }
 
 /* Header */
@@ -2433,6 +2460,10 @@ button.small,
   top: 0;
   width: 100%;
   z-index: 10000;
+}
+
+.dropotron {
+  color: var(--darkFontColor)
 }
 
 #header h1 {
@@ -2670,7 +2701,7 @@ button.small,
   -webkit-animation-fill-mode: forwards;
   -ms-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
-  background: rgba(4, 106, 169, 0.5);
+  background: var(--titleBackground);
   color: #fff;
   display: inline-block;
   opacity: 0;
@@ -2767,8 +2798,8 @@ body.index #main {
 /* Footer */
 
 #footer {
-  background: #041f37;
-  color: #ffffff;
+  background: var(--background);
+  color: var(--lightFontColor);
   padding: 5em 5em 10em 5em;
   text-align: center;
 }
@@ -3404,7 +3435,6 @@ body.index #main {
   }
 
   #banner .inner {
-    background: none;
     display: block;
     padding: 0 1.5em;
   }
