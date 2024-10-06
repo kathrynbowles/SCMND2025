@@ -1,6 +1,11 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,900");
 
+@font-face {
+  font-family: "FSUntitled";
+  src: url("../fonts/FSUntitled-Regular450.otf");
+}
+
 /*
 	Twenty by HTML5 UP
 	html5up.net | @ajlkn
@@ -206,7 +211,7 @@ input,
 select,
 textarea {
   color: var(--lightFontColor);
-  font-family: "Lato", sans-serif;
+  font-family: "FSUntitled", sans-serif;
   font-size: 15pt;
   font-weight: 300;
   letter-spacing: 0.025em;
@@ -1860,7 +1865,7 @@ header.special:after {
   border-top: solid 1.5px;
   content: "";
   height: 7px;
-  opacity: 0.1;
+  opacity: 0.5;
   position: absolute;
   top: 1.75em;
   width: 43%;
@@ -1895,7 +1900,7 @@ header.special .icon {
 
 header.special .icon:before {
   font-size: 3.5em;
-  opacity: 0.35;
+  opacity: 0.7;
 }
 
 footer > :last-child {
@@ -2005,6 +2010,10 @@ input[type="email"] {
   width: 100%;
   max-width:960px;
   margin: 3em auto;
+}
+
+.image.featured.wide > img {
+  max-width: none;
 }
 
 /* Icon */
