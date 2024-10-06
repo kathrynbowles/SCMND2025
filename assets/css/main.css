@@ -225,6 +225,14 @@ a {
   text-decoration: none;
   border-bottom: dotted 1px;
 }
+header a {
+  border-bottom: none;
+}
+
+header a i {
+  font-size: 5em;
+  line-height: 2em;
+}
 
 a:hover {
   border-bottom-color: transparent;
