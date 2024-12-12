@@ -2235,6 +2235,11 @@ table {
   width: 100%;
 }
 
+table img {
+  width: max(200px);
+  float: right;
+}
+
 table.default {
   width: 100%;
 }
