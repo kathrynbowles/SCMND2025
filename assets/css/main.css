@@ -2236,7 +2236,7 @@ table {
 }
 
 table img {
-  width: max(200px);
+  width: min(200px, 25vw);
   float: right;
 }
 
