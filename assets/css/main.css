@@ -17,12 +17,12 @@
   --lightFontColor: #f8f5fb;
   --darkFontColor: #4b3f50;
   --darkestFontColor: #281f2e;
-  --background: #24133d;
-  --linkText: #58d9e8;
-  --darkLinkText: #5f287e;
-  --linkHover: #ff9b7a;
-  --darkLinkHover: #9b2f68;
-  --titleBackground: rgba(90, 42, 131, 0.52);
+  --background: #1e234a;
+  --linkText: #67dceb;
+  --darkLinkText: #4c3e8a;
+  --linkHover: #ff9e7d;
+  --darkLinkHover: #6c3f8c;
+  --titleBackground: rgba(93, 75, 168, 0.52);
 }
 
 html,
@@ -311,13 +311,13 @@ sup {
 }
 
 hr {
-  border-top: solid 1px rgba(36, 19, 61, 0.2);
+  border-top: solid 1px rgba(30, 35, 74, 0.2);
   border: 0;
   margin-bottom: 1.5em;
 }
 
 blockquote {
-  border-left: solid 0.5em rgba(36, 19, 61, 0.2);
+  border-left: solid 0.5em rgba(30, 35, 74, 0.2);
   font-style: italic;
   padding: 1em 0 1em 2em;
 }
@@ -1930,7 +1930,7 @@ textarea {
   -ms-appearance: none;
   appearance: none;
   background: none;
-  border: solid 1px rgba(200, 196, 244, 0.28);
+  border: solid 1px rgba(201, 198, 255, 0.28);
   border-radius: 0;
   color: inherit;
   display: block;
@@ -1944,7 +1944,7 @@ input[type="text"]:focus,
 input[type="password"]:focus,
 input[type="email"]:focus,
 textarea:focus {
-  border-color: #58d9e8;
+  border-color: #67dceb;
 }
 
 input[type="text"],
@@ -2246,7 +2246,7 @@ table.default {
 }
 
 table.default tbody tr {
-  border-bottom: solid 1px rgba(95, 40, 126, 0.2);
+  border-bottom: solid 1px rgba(76, 62, 138, 0.2);
 }
 
 table.default td {
@@ -2260,7 +2260,7 @@ table.default th {
 }
 
 table.default thead {
-  background: #4e2b61;
+  background: #403a79;
   color: #fff;
 }
 
@@ -2305,7 +2305,7 @@ input[type="submit"]:hover,
 input[type="reset"]:hover,
 button:hover,
 .button:hover {
-  background: rgba(217, 91, 154, 0.14);
+  background: rgba(103, 220, 235, 0.12);
   border-color: inherit;
 }
 
@@ -2314,8 +2314,8 @@ input[type="submit"].primary,
 input[type="reset"].primary,
 button.primary,
 .button.primary {
-  background: #6a2d86;
-  border-color: #6a2d86;
+  background: #5d4ba8;
+  border-color: #5d4ba8;
   color: #fff !important;
 }
 
@@ -2324,8 +2324,8 @@ input[type="submit"].primary:hover,
 input[type="reset"].primary:hover,
 button.primary:hover,
 .button.primary:hover {
-  background: #b83e75 !important;
-  border-color: #b83e75 !important;
+  background: #8f4f9f !important;
+  border-color: #8f4f9f !important;
 }
 
 input[type="button"].fit,
@@ -2358,7 +2358,7 @@ button.small,
 }
 
 /* .wrapper.style2 {
-			background-color: #5a2a83;
+			background-color: #5d4ba8;
 			background-image: url("images/drismall.png"), url("images/brain2.png");
 			background-position: center left, center right;
 			background-repeat: no-repeat, no-repeat;
@@ -2367,7 +2367,7 @@ button.small,
 			text-align: center;
 		} */
 .wrapper.style2 {
-  background-color: #5a2a83;
+  background-color: #5d4ba8;
   background-image: url("images/brain2.png");
   background-position: center right;
   background-repeat: no-repeat;
@@ -2391,7 +2391,7 @@ button.small,
 .wrapper.style2 .button.primary {
   background: #fff;
   border-color: #fff;
-  color: #5a2a83 !important;
+  color: #5d4ba8 !important;
 }
 
 .wrapper.style2 input[type="button"].primary:hover,
@@ -2404,7 +2404,7 @@ button.small,
 }
 
 .wrapper.style3 {
-  background: #482365;
+  background: #34366f;
   color: inherit;
 }
 
@@ -2560,7 +2560,7 @@ button.small,
   -webkit-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  background: rgba(106, 45, 134, 0.12);
+  background: rgba(93, 75, 168, 0.12);
 }
 
 #header nav ul li.current > a {
@@ -2581,7 +2581,7 @@ button.small,
   animation: none;
   background: transparent;
   box-shadow: none;
-  color: #c8c4f4;
+  color: #c9c6ff;
   padding: 2em 2.5em;
   position: absolute;
 }
@@ -2627,7 +2627,7 @@ button.small,
 }
 
 .dropotron > li {
-  border-top: solid 1px rgba(95, 40, 126, 0.18);
+  border-top: solid 1px rgba(76, 62, 138, 0.18);
   padding-left: 0;
 }
 
@@ -2643,7 +2643,7 @@ button.small,
 }
 
 .dropotron > li:hover > a {
-  background: #b83e75;
+  background: #8f4f9f;
   color: #fff;
 }
 
@@ -2695,9 +2695,9 @@ button.small,
 
 #banner {
   background-attachment: scroll, scroll, scroll, fixed;
-  background-color: #32174f;
+  background-color: #1e234a;
   background-image: url("images/"), url("images/"), url("images/"),
-    url("../../images/brain2-purple.png");
+    url("../../images/brain2-indigo.png");
   background-position: bottom left, bottom right, top left, top center;
   background-repeat: no-repeat, no-repeat, repeat, no-repeat;
   background-size: 25em, 25em, auto, cover;
@@ -2776,7 +2776,7 @@ button.small,
 }
 
 #main .sidebar section {
-  border-top: solid 1px rgba(95, 40, 126, 0.2);
+  border-top: solid 1px rgba(76, 62, 138, 0.2);
   margin: 3em 0 0 0;
   padding: 3em 0 0 0;
 }
@@ -2795,7 +2795,7 @@ body.index #main {
 
 #cta {
   background-attachment: scroll, scroll, scroll, fixed;
-  background-color: #32174f;
+  background-color: #34366f;
   background-image: url("images/light-tl.svg"), url("images/light-tr.svg"),
     url("images/overlay.png"), url("../../images/banner.jpg");
   background-position: top left, top right, top left, bottom center;
@@ -3115,7 +3115,7 @@ body.index #main {
   }
 
   #main .sidebar {
-    border-top: solid 1px rgba(200, 196, 244, 0.12);
+    border-top: solid 1px rgba(201, 198, 255, 0.12);
     padding-top: 3em;
   }
 
@@ -3212,7 +3212,7 @@ body.index #main {
   }
 
   #navButton .toggle:after {
-    background: rgba(106, 45, 134, 0.78);
+    background: rgba(93, 75, 168, 0.78);
     border-radius: 2px;
     content: "";
     height: 40px;
@@ -3243,7 +3243,7 @@ body.index #main {
     top: 0;
     width: 275px;
     z-index: 10002;
-    background: #1b1028;
+    background: #171a38;
     color: #fff;
     font-size: 0.8em;
     letter-spacing: 0.075em;

@@ -1,4 +1,4 @@
-# Deep purple color scheme
+# Indigo Orchid color scheme
 
 Matched screenshots were captured at a 1440 × 1000 viewport. The homepage
 captures were taken after its animated title overlay had fully appeared.
@@ -83,10 +83,10 @@ captures were taken after its animated title overlay had fully appeared.
 
 ## Core palette
 
-- Midnight aubergine: `#24133d`
-- Feature purple: `#5a2a83`
-- Deep panel purple: `#482365`
-- Cyan accent: `#58d9e8`
-- Apricot accent: `#ff9b7a`
-- Raspberry accent: `#b83e75`
-- Pale lavender: `#c8c4f4`
+- Deep indigo: `#1e234a`
+- Orchid feature: `#5d4ba8`
+- Indigo panel: `#34366f`
+- Cyan accent: `#67dceb`
+- Apricot accent: `#ff9e7d`
+- Orchid hover: `#8f4f9f`
+- Pale periwinkle: `#c9c6ff`

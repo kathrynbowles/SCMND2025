@@ -1,10 +1,10 @@
 # Color scheme options
 
 Each option is shown at a matched 1440 × 1000 viewport using only the homepage,
-homepage footer, and Agenda. The approved deep-purple scheme is included as the
-control.
+homepage footer, and Agenda. The previous deep-purple scheme is included as
+the control.
 
-## Current: Deep Purple
+## Previous control: Deep Purple
 
 Balanced aubergine with cyan, coral, and lavender accents.
 
@@ -12,9 +12,9 @@ Balanced aubergine with cyan, coral, and lavender accents.
 
 | Homepage | Homepage footer | Agenda |
 | --- | --- | --- |
-| ![Current deep-purple homepage](../color-scheme/home-after.jpg) | ![Current deep-purple homepage footer](../color-scheme/home-footer-after.jpg) | ![Current deep-purple Agenda](../color-scheme/agenda-after.jpg) |
+| ![Deep-purple homepage](deep-purple-home.jpg) | ![Deep-purple homepage footer](deep-purple-footer.jpg) | ![Deep-purple Agenda](deep-purple-agenda.jpg) |
 
-## Option A: Indigo Orchid
+## Selected primary: Indigo Orchid
 
 Cooler and more institutional, with a stronger blue-violet foundation.
 
