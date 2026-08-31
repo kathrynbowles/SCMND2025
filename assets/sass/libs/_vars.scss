@@ -19,51 +19,51 @@
 
 // Palette.
 	$palette: (
-		bg:				#f3f6fa,
-		fg:				#7c8081,
-		border:			transparentize(#7c8081, 0.8),
+		bg:				#1e234a,
+		fg:				#f8f5fb,
+		border:			transparentize(#c9c6ff, 0.8),
 
 		header: (
 			bg:			#fff,
-			fg:			inherit,
+			fg:			#4b3f50,
 			alt-bg:		transparent,
-			alt-fg:		#fff
+			alt-fg:		#c9c6ff
 		),
 
 		banner: (
-			bg:			#898786,
+			bg:			#1e234a,
 			fg:			#fff,
-			inner-bg:	#341b2b,
+			inner-bg:	#5d4ba8,
 			inner-fg:	#fff
 		),
 
 		footer: (
-			bg:			#E8EEF4,
-			fg:			#7c8081
+			bg:			#1e234a,
+			fg:			#f8f5fb
 		),
 
 		one: (
-			bg:			#83d3c9,
+			bg:			#5d4ba8,
 			fg:			#fff
 		),
 
 		two: (
 			bg:			#fff,
-			fg:			inherit
+			fg:			#4b3f50
 		),
 
 		three: (
-			bg:			#645862,
+			bg:			#34366f,
 			fg:			#fff
 		),
 
 		navPanel: (
-			bg:			#1c2021,
+			bg:			#171a38,
 			fg:			#fff
 		),
 
 		navButton: (
-			bg:			rgba(163,169,170,0.75),
+			bg:			rgba(93,75,168,0.78),
 			fg:			#fff
 		),
 
