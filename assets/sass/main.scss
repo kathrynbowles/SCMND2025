@@ -1624,11 +1624,16 @@ $pattern-background-size: 25em;
 			input[type="reset"],
 			button,
 			.button {
-				max-width: 20em;
+				max-width: 100%;
+				min-width: 0;
 				width: 100%;
 
 				&.fit {
 					width: auto;
+				}
+
+				&.small {
+					min-width: 0;
 				}
 			}
 
