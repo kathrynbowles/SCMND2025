@@ -3385,7 +3385,8 @@ body.index #main {
   input[type="reset"],
   button,
   .button {
-    max-width: 20em;
+    max-width: 100%;
+    min-width: 0;
     width: 100%;
   }
 
@@ -3395,6 +3396,14 @@ body.index #main {
   button.fit,
   .button.fit {
     width: auto;
+  }
+
+  input[type="button"].small,
+  input[type="submit"].small,
+  input[type="reset"].small,
+  button.small,
+  .button.small {
+    min-width: 0;
   }
 
   /* Icons */
